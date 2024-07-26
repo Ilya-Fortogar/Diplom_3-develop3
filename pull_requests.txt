@@ -1,0 +1,8 @@
+Ссылки на GitHub
+
+Задание 1: https://github.com/Ilya-Fortogar/Diplom_1-develop1/pull/1
+
+Задание 2: https://github.com/Ilya-Fortogar/Diplom_2-develop2/pull/1
+
+Задание 3: https://github.com/Ilya-Fortogar/Diplom_3-develop3/pull/1
+
