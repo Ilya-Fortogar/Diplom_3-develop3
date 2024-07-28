@@ -14,3 +14,10 @@ class Data:
         'password': '123456'
     }
 
+class Authentication:
+	AUTHENTICATION_TASK_1 = 'Восстановление пароля'
+
+class Ingridients:
+    INGRIDIENT_INFO_1 = 'Детали ингредиента'
+    FOOD_TASK_1 = 'Соберите бургер'
+    BURGER_COUNT = '2'

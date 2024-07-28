@@ -3,7 +3,7 @@ from pages.main_page import MainPage
 from pages.login_page import LoginPage
 from pages.recovery_page import RecoveryPage
 from conftest import driver
-from data import Data, Url
+from data import Data, Url, Authentication
 
 
 class TestRecoveryPage:
@@ -16,7 +16,7 @@ class TestRecoveryPage:
         login_page.click_recover_password_button()
         recovery_page = RecoveryPage(driver)
         assert main_page.get_current_url() == Url.RECOVERY_PAGE
-        assert recovery_page.wait_visibility_recovery_header() == 'Восстановление пароля'
+        assert recovery_page.wait_visibility_recovery_header() == Authentication.AUTHENTICATION_TASK_1
 
 
     @allure.title('Ввод почты и клик по кнопке Восстановить')
